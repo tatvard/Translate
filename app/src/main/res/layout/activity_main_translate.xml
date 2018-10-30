@@ -25,11 +25,10 @@
     <Button
 
         android:id="@+id/shielding"
-        android:layout_width="43dp"
+        android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:layout_weight="4"
-        android:background="@android:color/transparent"
-        android:text="~"
+        android:background="@drawable/baseline_swap_horiz_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -67,27 +66,29 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="340dp"
-        android:layout_height="128dp"
-        android:layout_marginStart="5dp"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="5dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/edittext_style"
         android:ems="10"
         android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:gravity="top"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shielding" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="340dp"
-        android:layout_height="360dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/text_view_style"
 
+        android:background="@drawable/text_view_style"
         app:layout_constraintBottom_toTopOf="@+id/navigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,10 +100,10 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="88dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="15dp"
+        android:contentDescription="string/microphon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="string/microphon"
         app:srcCompat="@drawable/microphone"
         tools:ignore="VectorDrawableCompat" />
 
@@ -111,7 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="15dp"
         android:contentDescription="@string/camera"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
@@ -119,8 +120,8 @@
         tools:ignore="VectorDrawableCompat" />
 
     <View
-        android:layout_width="250dp"
-        android:layout_height="3dp"
+        android:layout_width="310dp"
+        android:layout_height="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="8dp"
