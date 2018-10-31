@@ -1,6 +1,16 @@
 <resources>
-    <string name="app_name">Translate</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title">Settings</string>
+    <string name="account">Account</string>
+    <string name="login">LOG IN</string>
+
+    <string name="download">Download offline translation</string>
+    <string name="help">Help</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="quickTranslate">Quick translate</string>
+    <string name="translateClipboard">Translate clipboard</string>
+    <string name="autorotateImage">Autorotate image</string>
+    <string name="tapReturn">Tap Return to tranclate</string>
+    <string name="predictiveTyping">Predictive typing</string>
+    <string name="detectLanguage">Detect language</string>
 </resources>
