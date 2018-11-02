@@ -13,4 +13,5 @@
     <string name="tapReturn">Tap Return to tranclate</string>
     <string name="predictiveTyping">Predictive typing</string>
     <string name="detectLanguage">Detect language</string>
+    <string name="offlineMode">Offline Mode</string>
 </resources>
