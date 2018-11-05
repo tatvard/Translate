@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Translate</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title">Authorization</string>
+    <string name="hintUsername">Username</string>
+    <string name="signIn">SIGN IN</string>
+    <string name="hintPassword">Password</string>
+    <string name="newAccount">Creast new account</string>
+    <string name="unableSign">Unable to Sign in</string>
+
 </resources>
