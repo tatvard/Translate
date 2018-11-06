@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Translate</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title">Registration</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="phone">Mobile phone</string>
+    <string name="noPhone">I don\'t have a phone number</string>
+    <string name="next">NEXT</string>
+    <string name="privacy">By tapping Next, I accept the terms of the <a href='http://www.google.com'>  User Agreement </a> and consent that Yandex will process my personal information in accordance with the terms specified in the <a href='http://www.google.com'>  Privacy Policy </a></string>
+
 </resources>
