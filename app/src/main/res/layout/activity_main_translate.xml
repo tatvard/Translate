@@ -18,6 +18,7 @@
         android:id="@+id/translate_from"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:background="@android:color/transparent"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/translate_from"
@@ -25,7 +26,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@id/shielding"
         app:layout_constraintEnd_toStartOf="@id/shielding"
-        app:layout_constraintTop_toTopOf="@id/shielding" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/shielding"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
 
@@ -45,17 +49,18 @@
         android:id="@+id/translate_to"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
         android:background="@android:color/transparent"
         android:fontFamily="sans-serif"
         android:text="@string/translate_to"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@id/shielding"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
         app:layout_constraintStart_toEndOf="@id/shielding"
-        app:layout_constraintTop_toTopOf="@id/shielding"
-
-
-        />
+        app:layout_constraintTop_toTopOf="@id/shielding" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
