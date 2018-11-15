@@ -31,4 +31,6 @@
     <string name="hint">Type text or a site address</string>
     <string name="microphon">Microphon</string>
     <string name="camera">Camera</string>
+    <string name="agreement"> <h1> User Agreement for Yandex Services</h1>  </string>
+
 </resources>
