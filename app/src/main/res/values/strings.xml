@@ -15,7 +15,7 @@
     <string name="detectLanguage">Detect language</string>
     <string name="offlineMode">Offline Mode</string>
     <string name="app_name">Translate</string>
-    <string name="title">Authorization</string>
+    <string name="title_authorization">Authorization</string>
     <string name="hintUsername">Username</string>
     <string name="signIn">SIGN IN</string>
     <string name="hintPassword">Password</string>

@@ -12,7 +12,7 @@
         android:id="@+id/message"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/title"
+        android:text="@string/title_authorization"
         android:textSize="25sp"
         android:gravity="center"
         android:textColor="@color/colorPrimaryDark"
