@@ -1,5 +1,6 @@
 package com.example.test.translate;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -23,7 +24,7 @@ public class MainTranslateActivity extends AppCompatActivity {
 
                     return true;
                 case R.id.navigation_notifications:
-
+                    startActivity(new Intent(MainTranslateActivity.this, SettingsActivity.class));
                     return true;
             }
             return false;
