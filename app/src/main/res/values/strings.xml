@@ -18,6 +18,13 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_about">About</string>
+    <string name="version">Build 3076
+                            Version 18.7.0 of 19.09.2018</string>
+    <string name="moreApps">More Yandex apps</string>
+    <string name="license">License agreement</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="copyright">©2013-2018 YANDEX</string>
 
     <string name="translate_to">English</string>
     <string name="translate_from">Russian</string>
