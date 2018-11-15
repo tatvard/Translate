@@ -13,7 +13,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/title"
+        android:text="@string/title_registration"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="25sp"
         android:gravity="center"
