@@ -10,7 +10,6 @@ import android.widget.TextView;
 public class MainTranslateActivity extends AppCompatActivity {
 
 
-
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
