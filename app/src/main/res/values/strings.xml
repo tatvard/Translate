@@ -14,4 +14,14 @@
     <string name="predictiveTyping">Predictive typing</string>
     <string name="detectLanguage">Detect language</string>
     <string name="offlineMode">Offline Mode</string>
+    <string name="app_name">Translate</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="translate_to">English</string>
+    <string name="translate_from">Russian</string>
+    <string name="hint">Type text or a site address</string>
+    <string name="microphon">Microphon</string>
+    <string name="camera">Camera</string>
 </resources>
